@@ -97,11 +97,24 @@ button {
     background-color: #FF0167;
 }
 
+button:hover,
+button:focus {
+    background-color: #fff;
+    color: #FF0167;
+    font-weight: 600;
+}
+
 .fas {
     color: white;
     font-size: 40px;
     padding-right: 15px;
     /* text-shadow: 0 0 5px #12173A; */
+}
+
+.fas:hover,
+.fas:focus {
+    color: #c1c1f1;
+    /* background-color: #fff; */
 }
 
 
