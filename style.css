@@ -1,0 +1,150 @@
+/* reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+    line-height: 1;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dd,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    background-color: #12173A;
+    color: #f3f3f3;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2.0rem;
+    margin-top: 48px;
+    text-transform: uppercase;
+    /* text-shadow: 0 0 15px #12173A; */
+
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.25rem;
+    padding: 16px;
+    text-transform: uppercase;
+}
+
+.container {
+    text-align: center;
+    margin: auto auto;
+    min-height: 100vh;
+    max-width: 400px;
+}
+
+.spacer {
+    margin-top: 16px;
+}
+
+.extra-space {
+    margin-top: 18px;
+}
+
+.box {
+    background-color: #272A4C;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.flex {
+    display: flex;
+    gap: 35px;
+}
+
+.h {
+    font-size: 2em;
+    /* font-weight: 700; */
+}
+
+button {
+    width: 400px;
+    text-transform: uppercase;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: inherit;
+    background-color: #FF0167;
+}
+
+.fas {
+    color: white;
+    font-size: 40px;
+    padding-right: 15px;
+    /* text-shadow: 0 0 5px #12173A; */
+}
+
+
+.box {
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 10px;
+    border-radius: 5px;
+    background: #12173A;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #FF0167;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+}
