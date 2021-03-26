@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f13d30d56f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="spacer">
+            <h1>bmi calculator</h1>
+        </header>
+        <section class="content">
+            <div class="height spacer box">
+                <h3>Height</h3>
+                <p><span class="h">183</span> cm</p>
+
+                <input type="range" min="130" max="230" value="180" class="slider" id="myRange">
+            </div>
+            <div class="flex">
+                <div class="weight spacer box">
+                    <h3>Weight</h2>
+                        <p><span class="h">183</span> kg</p>
+                        <i class="fas fa-minus-circle"></i>
+                        <i class="fas fa-plus-circle"></i>
+
+                </div>
+                <div class="bmi spacer box">
+                    <h3>bmi</h3>
+                    <p><span class="h">183</span> bmi</p>
+                    <p>more</p>
+                </div>
+            </div>
+            <button type="button" class="spacer">Calculate your bmi</button>
+    </div>
+    </section>
+    <!-- <script src="app.js"></script> -->
+</body>
+
+</html>
