@@ -19,31 +19,34 @@
         <header class="spacer">
             <h1>bmi calculator</h1>
         </header>
+
         <section class="content">
-            <div class="height spacer box">
+            <div class="spacer box">
                 <h3>Height</h3>
-                <p><span class="h">183</span> cm</p>
+
+                <p><span class="height">180 </span><span> cm</span></p>
 
                 <input type="range" min="130" max="230" value="180" class="slider" id="myRange">
             </div>
-            <div class="flex">
-                <div class="weight spacer box">
+
+            <div>
+                <div class="spacer box">
                     <h3>Weight</h2>
-                        <p><span class="h">183</span> kg</p>
-                        <i class="fas fa-minus-circle"></i>
-                        <i class="fas fa-plus-circle"></i>
+                        <input type="number" value='50' class="weight" />
+                        <i class="fas fa-minus-circle minus"></i>
+                        <i class="fas fa-plus-circle plus"></i>
 
                 </div>
                 <div class="bmi spacer box">
                     <h3>bmi</h3>
-                    <p><span class="h">183</span> bmi</p>
-                    <p>more</p>
+                    <p><span class="bmi"></span></p>
                 </div>
             </div>
-            <button type="button" class="spacer">Calculate your bmi</button>
+            <button type="button" class="spacer btn">Calculate your bmi</button>
+            <div class="message"></div>
     </div>
     </section>
-    <!-- <script src="app.js"></script> -->
+    <script src="app.js"></script>
 </body>
 
 </html>

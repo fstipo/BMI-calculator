@@ -33,7 +33,7 @@ body {
     line-height: 1.5;
     background-color: #12173A;
     color: #f3f3f3;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
@@ -114,9 +114,9 @@ button:focus {
 .fas:hover,
 .fas:focus {
     color: #c1c1f1;
+    font-size: 38px;
     /* background-color: #fff; */
 }
-
 
 .box {
     box-shadow:
@@ -160,4 +160,29 @@ button:focus {
     width: 35px;
     height: 35px;
     opacity: 0.5;
+}
+
+.weight {
+    border: none;
+    border-color: transparent;
+    outline: none;
+    background-color: #272A4C;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+input[type=number]:active::-webkit-inner-spin-button,
+input[type=number]:focus::-webkit-inner-spin-button {
+    display: none;
+
+}
+
+input[type=number]:hover::-webkit-inner-spin-button {
+    display: none;
+}
+
+.message {
+    font-size: 2.4rem;
+    border-bottom: 2px solid #272A4C;
 }
